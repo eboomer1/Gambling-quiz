@@ -1,0 +1,1 @@
+- socks pic doesn't show up only the directory 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dice Simulator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Dice Game</h1>
+        <h2>Beat the house and win your bet!</h2>
+        <hr>
+        <table align="center">
+            <tr>
+                <td id="broke">Funds: $<span id="funds">5000</span></td>
+                <td>Bet:<input id="bet-input" type="number"><button id="play-btn">PLAY</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>House Roll</p>
+                    <img id="house-die" src="images/question-mark.png">
+                    <p>Losses: <span id="house-win">0</span></p>
+                </td>
+                <td>
+                    <p>Your Roll</p>
+                    <img id="player-die" src="images/question-mark.png">
+                    <p>wins: <span id="player-win">0</span></p>
+                </td>
+                <td>
+                    <p>Ties: <span id="tie-win">0</span></p>
+                </td>
+            </tr>
+        </table>
+    
+        <button id="purchase-btn">Buy Riches & Luxury</button>
+        <h2>Your Loot</h2>
+        <ul>
+            <li>socks: <span id="socks">0</span></li>
+            <li>ring: <span id="ring">0</span></li>
+            <li>bike: <span id="bike">0</span></li>
+            <li>trip: <span id="trip">0</span></li>
+            <li>house: <span id="house">0</span></li>
+            <li>motorcycle: <span id="motorcycle">0</span></li>
+            <li>car: <span id="car">0</span></li>
+            <li>boat: <span id="boat">0</span></li>
+        </ul>
+        <p id="loot"></p>
+    <script src="main.js"></script>
+    </body>
+</html>
